@@ -1,0 +1,89 @@
+/* View More Section */
+.view-more-section {
+    padding: 80px 0;
+    background-color: #f0f7ef;
+}
+
+.view-more-heading {
+    font-family: 'Overlock', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: peru;
+}
+
+.view-more-intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: peru;
+    margin-bottom: 50px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-family: 'Overlock', serif;
+    font-size: 1.5rem;
+    color: peru;
+}
+
+.card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.btn-primary {
+    background-color: peru;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: darkorange;
+}
+
+/* Footer */
+.footer {
+    background-color: #b0dcd1;
+    color: peru;
+    font-family: 'Overlock', serif;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: peru;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.btn-line {
+  display: inline-block;
+  background-color: rgb(178, 221, 211);
+  padding: 10px 30px;
+  font-size: 1.125rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: peru;
+  border: 2px solid peru;
+  font-weight: bold;
+  font-family: Overlock;
+  transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+  align-items: center;
+}
+
+.btn-line:hover {
+  background-color: peru;
+  color: white;
+}

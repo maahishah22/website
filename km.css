@@ -1,0 +1,70 @@
+/* Know More Section */
+.know-more-section {
+    padding: 80px 0;
+    background-color: #f0f7ef;
+}
+
+.know-more-heading {
+    font-family: 'Overlock', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: peru;
+}
+
+.know-more-intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: peru;
+    margin-bottom: 50px;
+}
+
+.know-more-subheading {
+    font-family: 'Overlock', serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: peru;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #fbecea;
+    padding: 80px 0;
+}
+
+.mini-title {
+    font-family: 'Overlock', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: peru;
+}
+
+.testimonials blockquote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: peru;
+    border-left: 5px solid peru;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.testimonials footer {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/* Footer */
+.footer {
+    background-color: #b0dcd1;
+    color: peru;
+    font-family: 'Overlock', serif;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: peru;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

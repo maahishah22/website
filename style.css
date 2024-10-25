@@ -1,0 +1,311 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+}
+
+.offer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(178, 221, 211);
+  padding-top: 2px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.promocode {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: peru;
+  text-align: center;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1050;
+}
+
+
+
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: white;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.dropdown-list li {
+  padding: 8px 12px;
+}
+
+.dropdown-list li a {
+  text-decoration: none;
+  color: peru;
+}
+
+.dropdown-list li a:hover {
+  color: rgb(178, 221, 211); 
+}
+
+.dropdown-wrapper:hover .dropdown-list {
+  display: block; 
+}
+
+.dropdown-list {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-wrapper:hover .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-line a {
+  color: inherit; /* Inherit the color from the button */
+  text-decoration: none; /* Remove underline */
+}
+
+.btn-line:hover a {
+  color: white; /* Change color on hover if desired */
+}
+
+
+      .dropdown {
+          position: fixed;
+          top: -100px; 
+          width: 100%;
+          background-color: white; 
+          color: peru;
+          padding: 20px;
+          text-align: center;
+          z-index: 1050;
+          transition: top 0.5s ease; /* Smooth transition */
+      }
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+      }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+
+      .dropdown-content a:hover {
+          background-color: #ddd;
+      }
+
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+      }
+
+      .carousel-inner img {
+        max-width: 100%; 
+        max-height: 600px; 
+        margin: 0 auto;
+    }
+    
+      
+.logo {
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  height: 6vw;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title_heading {
+  font-family: Overlock;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: peru;
+  text-align: center;
+}
+
+.hist {
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.mini-title {
+  font-size: 1.5rem;
+  font-family: Overlock;
+  color: peru;
+  font-weight: bold;
+}
+
+.mini-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.rowcol, .colrow {
+  flex: 1;
+  max-width: 48%;
+  margin: 0 2%;
+}
+
+.mini-des {
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.know {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Overlock;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.btn-line {
+  display: inline-block;
+  background-color: rgb(178, 221, 211);
+  padding: 10px 30px;
+  font-size: 1.125rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: peru;
+  border: 2px solid peru;
+  font-weight: bold;
+  font-family: Overlock;
+  transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+  align-items: center;
+}
+
+.btn-line:hover {
+  background-color: peru;
+  color: white;
+}
+
+.collection_title {
+  font-family: "Overlock";
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a9802a;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+  margin-bottom: 0px;
+}
+
+.col1, .col2, .col3, .col4 {
+  text-align: center;
+  flex-basis: 23%;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .col1, .col2, .col3, .col4 {
+      flex-basis: 100%;
+      margin: 10px 0;
+  }
+
+  .rowcol, .colrow {
+      max-width: 100%;
+      margin: 20px 0;
+  }
+
+  .menu {
+      top: 12%;
+  }
+
+  .title_heading {
+      font-size: 1.8rem;
+  }
+
+  .mini-title {
+      font-size: 1.2rem;
+  }
+}
+
+.view{
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+
+
+@media only screen and (max-width: 749px){
+  .content1{
+    width:100%!important;
+  }
+}
+
+#onln{
+  background-color :#f4bcb4;
+   color: peru;
+}
+
+#onln.btn-line:hover {
+  background-color: peru;
+  color: white;
+}
+
+.ftr2{
+  color: peru;
+  text-decoration: none;
+  margin-left: 44%;
+  font-family: overlock;
+  font-size: 1.7rem;
+  padding-top: 3px;
+}
+

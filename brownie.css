@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: 'Overlock', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f0e9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: peru;
+    margin-bottom: 20px;
+}
+
+p.text-center {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+/* Flexbox for Cupcake Items */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brownie-item {
+    background-color: #fff;
+    border: 2px solid #d7b89a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    height: 400px; /* Fixed height for equal-sized boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brownie-item img {
+    max-width: 100%;
+    max-height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.brownie-item h3 {
+    font-size: 1.5rem;
+    color: #d2691e;
+    margin: 10px 0;
+}
+
+.brownie-item .price {
+    font-size: 1.2rem;
+    color: #8b4513;
+    font-weight: bold;
+}
+
+.brownie-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #b0dcd1;
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+}
+
+footer img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.btn-line {
+    background-color: peru;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-line:hover {
+    background-color: #d2691e;
+}
